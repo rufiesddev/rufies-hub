@@ -383,7 +383,7 @@ footer {
 @media (max-width: 768px) {
   .hero {
     text-align: center;
-    padding: 80px 0 20px;
+    padding: 100px 0 40px;
   }
 
   .hero h1{
@@ -395,11 +395,19 @@ footer {
   }
    
   .hero-desc {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
 
   .hero-btns {
     justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .hero-img {
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
   }
 
   .col-lg-6.d-flex.justify-content-end {
@@ -411,9 +419,17 @@ footer {
     text-align: center;
   }
 
+.about-desc {
+  font-size: 0.8rem;
+}
+
   .skills {
     justify-content: center;
   }
+
+  .skill-item i {
+  font-size: 2rem;
+}
 
   .graphics-card {
   aspect-ratio: 1/1;
@@ -428,6 +444,12 @@ footer {
   object-position: center;
   border-radius: 12px;
 }
+
+.btn-primary-custom, .btn-outline-custom {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.75rem;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
