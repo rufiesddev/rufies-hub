@@ -611,11 +611,16 @@ footer {
   }
 
   .hero h1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
+  }
+
+  .hero .eyebrow {
+    font-size: 0.65rem;
   }
 
   .hero-desc {
     margin: 0 auto 2rem;
+    font-size: 0.9rem;
   }
 
   .hero-btns {
@@ -624,16 +629,20 @@ footer {
 
   .hero-img-col {
     justify-content: center !important;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
 
   .hero-img {
-    width: 220px;
+    width: 250px;
     height: 280px;
   }
 
   .section-header h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .section-sub {
+    font-size: 0.88rem;
   }
 
   .graphics-grid {
@@ -645,11 +654,15 @@ footer {
   }
 
   .about-section h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .contact-section h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .contact-desc {
+    font-size: 0.88rem;
   }
 }
 
